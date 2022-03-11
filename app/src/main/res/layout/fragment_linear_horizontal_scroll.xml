@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: Notice it is different from ScrollView -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Practice exercises
+    1. Change value of @dimen/fragment_linear_horizontal_view_height in dimens.xml
+    -->
+
+    <include layout="@layout/fragment_linear_horizontal"/>
+
+</HorizontalScrollView>

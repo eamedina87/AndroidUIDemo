@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <!-- TODO: Practice exercises
+    1. Replace layout_width of first view
+    2. Change value of @dimen/fragment_linear_horizontal_view_height in dimens.xml
+    3. Add a new View at any position
+    4. Replace marginTop and marginBottom for marginVertical
+    -->
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/AntiqueWhite"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/Gainsboro"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/DarkSlateGray"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/DimGray"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/Chartreuse"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/LightSalmon"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/Maroon"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        />
+
+    <View
+        android:layout_width="@dimen/fragment_linear_horizontal_view_width"
+        android:layout_height="match_parent"
+        android:background="@color/FireBrick"
+        android:layout_marginVertical="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        />
+
+</LinearLayout>
