@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_linear_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical Linear Layout"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_linear_vertical_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical Linear Layout w/ Scroll"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_linear_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Linear Layout"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_linear_horizontal_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Linear Layout w/ Scroll"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_relative_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout w/ Scroll"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_constraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_constraint_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout w/ Scroll"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
