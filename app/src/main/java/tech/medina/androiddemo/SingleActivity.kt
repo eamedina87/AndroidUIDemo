@@ -47,6 +47,7 @@ class SingleActivity : AppCompatActivity() {
         itemAdapter.submitList(itemList)
         itemAdapter.notifyItemInserted(itemList.lastIndex)
         binding.recyclerview.scrollToPosition(itemList.lastIndex)
+        //this.
     }
 
     private fun setupRecyclerView() {

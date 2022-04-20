@@ -3,11 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.564984639485677" />
+        <entry key="app/src/main/res/drawable/background_rounded_corners.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_baseline_follow_the_signs_24.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2695" />
         <entry key="app/src/main/res/layout/activity_buttons.xml" value="0.3138586956521739" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/custom_view_button.xml" value="0.4161184210526316" />
+        <entry key="app/src/main/res/layout/custom_view_layout.xml" value="0.5618615209988649" />
+        <entry key="app/src/main/res/layout/custom_view_measures_layout.xml" value="0.6340579710144928" />
+        <entry key="app/src/main/res/layout/custom_view_status_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_constraint.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/fragment_constraint_extra.xml" value="0.3138586956521739" />
         <entry key="app/src/main/res/layout/fragment_constraint_scroll.xml" value="0.3138586956521739" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.345088161209068" />
         <entry key="app/src/main/res/layout/fragment_linear_horizontal.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_linear_horizontal_scroll.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/fragment_linear_nested.xml" value="0.10504201680672269" />
@@ -27,5 +37,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2864583333333333" />
+      </ProjectState>
+    </option>
   </component>
 </project>

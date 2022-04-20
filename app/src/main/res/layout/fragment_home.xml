@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <tech.medina.androiddemo.ui.custom_views.CustomMeasuresView
+        android:id="@+id/iob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <tech.medina.androiddemo.ui.custom_views.CustomMeasuresView
+        android:id="@+id/blood_glucose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/iob"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/graph"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@mipmap/graph"
+        app:layout_constraintTop_toBottomOf="@id/blood_glucose"
+        app:layout_constraintBottom_toTopOf="@id/last_bolus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <tech.medina.androiddemo.ui.custom_views.CustomView
+        android:id="@+id/last_bolus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/status_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/basal"
+        android:layout_margin="4dp"
+        app:cv_title="Last Bolus"
+        app:cv_date="26/12/2012 16:44:00"
+        app:cv_units="U"
+        app:cv_value="---"
+        app:cv_icon="@drawable/ic_android_black_24dp"
+        app:cv_lock_visible="true"
+        />
+
+    <tech.medina.androiddemo.ui.custom_views.CustomView
+        android:id="@+id/basal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/last_bolus"
+        app:layout_constraintStart_toEndOf="@id/last_bolus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cv_title="Basal"
+        app:cv_lock_visible="true"
+        app:cv_value="---"
+        app:cv_units="U/h"
+        app:cv_icon="@drawable/ic_baseline_follow_the_signs_24"
+        />
+
+    <!-- TODO CONVERT TO CUSTOM VIEW -->
+    <LinearLayout
+        android:id="@+id/status_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rounded_corners"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="8dp"
+        android:layout_margin="4dp"
+        >
+
+        <tech.medina.androiddemo.ui.custom_views.CustomStatusView
+            android:id="@+id/pair_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <tech.medina.androiddemo.ui.custom_views.CustomStatusView
+            android:id="@+id/bolus_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <tech.medina.androiddemo.ui.custom_views.CustomStatusView
+            android:id="@+id/battery_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

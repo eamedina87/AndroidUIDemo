@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="cv_title" format="reference|string"/>
+        <attr name="cv_value" format="reference|string"/>
+        <attr name="cv_units" format="reference|string"/>
+        <attr name="cv_date" format="reference|string"/>
+        <attr name="cv_lock_visible" format="boolean"/>
+        <attr name="cv_icon" format="reference"/>
+        <!--TODO ADD TITLE TEXT APPEARANCE ATTRIBUTE -->
+    </declare-styleable>
+    <declare-styleable name="CustomStatusView">
+        <attr name="csv_value" format="reference|string"/>
+        <attr name="csv_units" format="reference|string"/>
+        <attr name="csv_icon" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CustomMeasuresView">
+        <attr name="cmv_title" format="reference|string"/>
+        <attr name="cmv_value" format="reference|string"/>
+        <attr name="cmv_units" format="reference|string"/>
+        <attr name="cmv_icon" format="reference"/>
+    </declare-styleable>
+</resources>

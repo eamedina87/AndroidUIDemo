@@ -24,6 +24,7 @@ class ButtonsActivity : AppCompatActivity(), View.OnClickListener {
             buttonRelative.setOnClickListener(this@ButtonsActivity)
             buttonRelativeScroll.setOnClickListener(this@ButtonsActivity)
             buttonRecyclerview.setOnClickListener(this@ButtonsActivity)
+            buttonHome.setOnClickListener(this@ButtonsActivity)
         }
     }
 
@@ -38,6 +39,7 @@ class ButtonsActivity : AppCompatActivity(), View.OnClickListener {
             R.id.button_relative -> R.layout.fragment_relative
             R.id.button_relative_scroll -> R.layout.fragment_relative_scroll
             R.id.button_recyclerview -> R.layout.fragment_recyclerview
+            R.id.button_home -> R.layout.fragment_home
             else -> -1
         }
         openSingleActivity(layoutId)
