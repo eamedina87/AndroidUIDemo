@@ -10,6 +10,8 @@
     2. Change value of @dimen/fragment_linear_horizontal_view_height in dimens.xml
     3. Add a new View at any position
     4. Replace marginTop and marginBottom for marginVertical
+    5. Read official guide
+    https://developer.android.com/guide/topics/ui/layout/linear
     -->
 
     <View

@@ -5,6 +5,8 @@
     >
     <!-- TODO: Practice exercises
         1. Change value of @dimen/fragment_relative_view_height in dimens.xml
+        2. Read official documentation
+        https://developer.android.com/guide/topics/ui/layout/relative
     -->
         <View
             android:id="@+id/center"

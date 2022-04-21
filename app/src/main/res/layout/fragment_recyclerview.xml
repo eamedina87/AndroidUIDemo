@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     >
 
+    <!-- TODO
+    1. Read official guide:
+    https://developer.android.com/guide/topics/ui/layout/recyclerview
+    -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="0dp"

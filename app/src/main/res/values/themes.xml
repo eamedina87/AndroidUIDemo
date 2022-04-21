@@ -1,4 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--TODO
+    1. Read bout themes vs styles
+    https://developer.android.com/guide/topics/ui/look-and-feel/themes
+    -->
     <!-- Base application theme. -->
     <style name="Theme.AndroidDemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->

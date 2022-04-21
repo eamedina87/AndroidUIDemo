@@ -7,6 +7,8 @@
 
     <!-- TODO: Practice exercises
         1. Change value of @dimen/fragment_relative_view_height in dimens.xml
+        2. Check official guide on reusing layouts
+        https://developer.android.com/training/improving-layouts/reusing-layouts
     -->
 
     <include layout="@layout/fragment_relative" />

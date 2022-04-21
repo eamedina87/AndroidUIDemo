@@ -6,6 +6,10 @@
     android:layout_height="wrap_content"
     android:elevation="8dp"
     >
+    <!-- TODO
+    1. Read official guide
+    https://developer.android.com/guide/topics/ui/layout/cardview
+    -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

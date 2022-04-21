@@ -8,6 +8,17 @@ import tech.medina.androiddemo.databinding.ActivityButtonsBinding
 
 class ButtonsActivity : AppCompatActivity(), View.OnClickListener {
 
+    /*TODO
+    1. Check activity lifecycle official guide
+    https://developer.android.com/guide/components/activities/activity-lifecycle
+    2. Check fragment's lifecycle official guide
+    https://developer.android.com/guide/fragments/lifecycle
+    3. Check dialog fragments' lifecycle official guide
+    https://developer.android.com/reference/android/app/DialogFragment
+    4. Check Viewpager official guide
+    https://developer.android.com/training/animation/screen-slide
+    */
+
     private lateinit var binding: ActivityButtonsBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
